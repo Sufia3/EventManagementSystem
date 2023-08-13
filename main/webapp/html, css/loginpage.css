@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.item.active{
+    color: white
+}
+
+
+/* LOGIN CSS */
+
+.mid_main_container{
+    border: 2px solid purple;
+    width: 100vw;
+    height: 120vh;
+}
+
+.main_container{
+    /* border: 2px solid purple; */
+    width: 70vw;
+    height: 90vh;
+    margin: 100px 200px 300px 200px;
+    position: relative;
+    /* background-color: rgb(234, 132, 132); */
+    /* background-color: rgb(116, 116, 214); */
+    background-color: rgb(232, 232, 134);
+}
+
+.mainloginpage_container{
+    /* border: 2px solid green; */
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    position: absolute;
+    margin: 60px 40px 30px 70px;
+} 
+
+.image_container{
+    /* border: 1px solid red; */
+    height: 100%;
+    display: inline-block;
+    flex: 0 1 50%;
+    /* background: url('img/Blur_booking.jpg'); */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main_login_container{
+    /* border: 1px solid blue; */
+    height: 100%;
+    display: inline-block;
+    flex: 0 1 30%;
+    background-color: white;
+}
+
+.insidelogin_container{
+    /* border: 2px solid yellow; */
+    margin: 40px;
+}
+
+/* EVENT NAME */
+div > h2{
+    /* border: 2px solid pink; */
+    text-align: center;
+    color: purple;
+}
+
+/* WELCOME CONTAINER */
+div > h3{
+    text-align: center;
+    margin-top: 60px;
+    color: purple;
+}
+
+ .login_email_container input{
+    width: 280px;
+    line-height: 25px;
+}
+
+
+.login_email_container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.password_container{
+    color: black;
+} 
+
+.password_container input{
+    width: 280px;
+    line-height: 25px;
+}
+
+.forgot_password_container{
+    margin-top: 30px;
+    text-align: right;
+    color: black;
+}
+
+.signin_btn{
+    margin-top: 70px;
+    margin-left: 90px;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 33px;
+    width: 130px;
+    background-color: grey;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.signin_btn:hover{
+    background-color: rgb(81, 78, 78);
+}
+
+
+
+
+/* FOOTER CSS */
+
+.footer_container{
+    background-color: black;
+    height: 320px;
+    display: flex;
+}
+    
+
+.footer_col1{
+    display: inline-block;
+    /* border:2px solid red;  */
+    /* width: 300px; */
+    flex: 0 1 50%;
+}
+
+.img_container{
+    margin-left: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.footer_col2{
+    display: inline-block;
+    /* border:2px solid orangered; */
+    flex: 0 1 50%;
+    
+}
+
+
+.footer_col2 ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin: 6px;
+    color: white;
+    /* font-weight: bold; */
+} 
+
+.footer_col2 h2{
+    margin-left: -610px;
+    color: white;
+    /* font-weight: bolder; */
+}
+
+div > i{
+    display: inline-block;
+}
+
+div > li{
+    display: inline-block;
+}
+
+.contact_info_container{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+

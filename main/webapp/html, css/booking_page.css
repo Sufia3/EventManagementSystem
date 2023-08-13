@@ -1,0 +1,125 @@
+
+
+/* .item li a.active{
+    color: white;
+} */
+
+.active{
+    color: white;
+    /* border-color: white; */
+}
+
+div>i{
+    color:white;
+}
+
+
+.main_booking_container{
+    /* border: 2px solid red; */
+    height: 180vh;
+    width: 100vw;
+    /* background-image: url('img/booking5.jpg'); */
+}
+
+.booking_withdetails_container{
+    border: 2px solid rgb(227, 227, 174);
+    width: 82vw;
+    height: 100vh;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    padding-top: 30px;
+    background-color: lightsalmon;
+    /* background-color: rgb(252, 232, 235);
+    border: 3px solid rgb(250, 214, 220); */
+    /* background-color: yellow; */
+
+} 
+
+.form_box{
+    /* border: 2px solid purple; */
+    position: relative;
+    left: 80px;
+    width: 70vw;
+    top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0,0,0,1);
+    
+}
+
+.booking_heading_container{
+    /* border: 2px solid yellow; */
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.description{
+    /* border: 2px solid blue; */
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+div > input{
+    width: 700px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+div > select{
+    width: 700px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.basic_info{
+    margin-left: 170px;
+}
+
+.submit{
+    position: relative;
+    left: 450px;
+    font-size: 27px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    width:150px;
+    background-color: salmon;
+    color:white;
+    padding:10px;
+}
+
+.submit:hover{
+    background-color:lightsalmon;
+}
+
+.box{
+    /* border: 2px solid red;  */
+    padding-top: 50px;
+    margin-top: 100px;
+    width: 900px;
+    height: 1000px;
+    position: relative;
+}
+
+
+div > label{
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LOGIN-CONTINUUM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+
+    <div class="header_container">
+        <header class="header">
+            <!-- For logo -->
+            <div class="left">
+                <img src="img/event_logo.png" alt="" width="300px" height="50px">
+            </div>
+            <!-- For navbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <div class="item">
+                        <li><a href="homepage.html">Home</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="eventpage.html" rel="noopener noreferrer">Events</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="loginpage.html" class="active">Login</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="registrationpage.html">Register</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="loginpage.html"><button class="header_book_btn">Book Now</button></a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Main login page -->
+     <div class="mid_main_container">
+        <div class="main_container">
+            <div class="mainloginpage_container">
+                <div class="image_container">
+                    <img src="img/login_img.jpg" alt="" width="520px" height="520px">
+                </div>
+
+                <div class="main_login_container">
+                
+                    <div class="insidelogin_container">
+                        <div class="event_name_container">
+                            <h2>Continuum</h2>
+                        </div>
+                        
+                        <div class="welcome_container">
+                            <h3>Welcome to Continuum</h3>
+                        </div>
+                        
+                        <form action="../jsp/userLogin.jsp" method="post">	
+							<div>
+								
+	                        <div class="logindetails_container">
+	                            <div class="login_email_container">
+	                                <label for="username_email">Email</label><br>
+	                                <input type="email" id="email" name="email">
+	                            </div>
+	
+	                            <div class="password_container">
+	                                <label for="password">Password</label><br>
+	                                <input type="password" id="password" name="password">
+	                            </div>
+	                        </div>
+	                        <div class="forgot_password_container">
+	                            <a href="#">Forgot password?</a>
+	                        </div>
+	                        <button id="button" class="signin_btn">Login</button>
+							</div>						
+						</form>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+    <!-- FOOTER CSS -->
+
+
+    <footer class="footer">
+        <div class="footer_container">
+            <!-- <div class="footer_row"> -->
+
+            <div class="footer_col1">
+                <div class="img_container">
+                    <img src="img/CE.png" alt="" width="300px" height="300px">
+                </div>
+            </div>
+
+
+
+            <div class="footer_col2">
+                <div class="contact_info_container">
+                    <h2>Contact</h2>
+                    <ul>
+                        <!-- <li><a href="#">RCC Institute of Information Technology</a> </li>         
+                    <li><a href="#">cosaevents@gmail.com</a> </li>
+                    <li><a href="#">123-567-137</a> </li> -->
+                        <div class="address_container">
+                            <i class="fa fa-home" style="font-size:24px"></i>
+                            <li>RCC Institute of Information Technology</li>
+                        </div>
+                        <div class="email_container">
+                            <i class="fa fa-envelope" style="font-size:24px"></i>
+                            <li>continuumEvents@gmail.com</li>
+                        </div>
+                        <div class="phone_container">
+                            <i class="fa fa-phone" style="font-size:24px"></i>
+                            <li>123-567-137</li>
+                        </div>
+
+                    </ul>
+                </div>
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </footer>
+</body>
+
+</html>

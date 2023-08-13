@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>REGISTRATION-CONTINUUM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrationpage.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- new header -->
+
+
+    <div class="header_container">
+        <header class="header">
+            <!-- For logo -->
+            <div class="left">
+                <img src="img/event_logo.png" alt="" width="300px" height="50px">
+            </div>
+            <!-- For navbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <div class="item">
+                        <li><a href="homepage.html">Home</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="eventpage.html" rel="noopener noreferrer">Events</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="loginpage.html">Login</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="registrationpage.html" class="active">Register</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="registrationpage.html"><button class="header_book_btn">Book Now</button></a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+
+
+
+    <!-- REGISTRATION PART -->
+    <div class="outer_container">
+        <div class="container">
+            <form action="../jsp/confirmRegistration.jsp" method="post">
+                <div class="registration_container">
+                    <div class="name_container">
+                        <!-- <h1>Registration Form</h1> -->
+                        <p>Registration Form</p>
+                    </div>
+                    <!-- <label for="email">Email</label> -->
+                    <div class="form_details_container">
+                        <div class="info">
+                            <i class="fa fa-envelope"></i>
+                            <input type="text" name="email" id="email" placeholder="Email" required>
+                        </div>
+
+
+                        <!-- <label for="password">Password</label> -->
+                        <div>
+                            <i class="fa fa-lock"></i>
+                            <input type="password" name="password" id="password" placeholder="Password" class="info" required>
+                        </div>
+
+                        <!-- <label for="fname">First Name</label> -->
+                        <div>
+                            <i class="fa fa-user"></i>
+                            <input type="text" name="firstname" id="firstname" placeholder="First name">
+                        </div>
+
+                        <!-- <label for="lname">Last Name</label> -->
+                        <div>
+                            <i class="fa fa-user"></i>
+                            <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                        </div>
+
+                        <!-- <label for="mobileno">Phone number</label> -->
+                        <!-- <i class="fa fa-phone" style="font-size:24px"></i> -->
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <input type="number" id="mobileno" name="mobileno" placeholder="Mobile no.">
+                        </div>
+                        
+                        <div style="height: 1em; text-align: center;">
+                            <i style="color: black; font-weight: bold;">Are you Employee?</i>
+						    <input style="width: 1em; height: 1em;" type="radio" id="yes" name="employee" value="y" required>
+						    <label for="yes">Yes</label>
+						    <input style="width: 1em; height: 1em;" type="radio" id="no" name="employee" value="n">
+						    <label for="no">No</label>					
+						</div>
+      
+                        <button id="button">Register</button>
+                    </div>
+
+
+
+                    <!-- <input type="radio" id="male" name="male" class="gender">Male
+                        <input type="radio" id="female" name="female" class="gender">Female -->
+
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER PART -->
+
+
+    <footer class="footer">
+        <div class="footer_container">
+            <!-- <div class="footer_row"> -->
+
+            <div class="footer_col1">
+                <div class="img_container">
+                    <img src="img/CE.png" alt="" width="300px" height="300px">
+                </div>
+            </div>
+
+
+
+            <div class="footer_col2">
+                <div class="contact_info_container">
+                    <h2>Contact</h2>
+                    <ul>
+                        <!-- <li><a href="#">RCC Institute of Information Technology</a> </li>         
+                    <li><a href="#">cosaevents@gmail.com</a> </li>
+                    <li><a href="#">123-567-137</a> </li> -->
+                        <div class="address_container">
+                            <i class="fa fa-home" style="font-size:24px"></i>
+                            <li>RCC Institute of Information Technology</li>
+                        </div>
+                        <div class="email_container">
+                            <i class="fa fa-envelope" style="font-size:24px"></i>
+                            <li>continuumEvents@gmail.com</li>
+                        </div>
+                        <div class="phone_container">
+                            <i class="fa fa-phone" style="font-size:24px"></i>
+                            <li>123-567-137</li>
+                        </div>
+
+                    </ul>
+                </div>
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </footer>
+
+</body>
+
+</html>

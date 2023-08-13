@@ -1,0 +1,78 @@
+/* *{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid red;
+    width: 100vw;
+    height: 70vh;
+}
+
+.failed_msg{
+    border: 2px solid green;
+    width: 100vw;
+    height: 50vh;
+    /* position: relative;
+    top: 100px;
+    left: 100px; 
+} */
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.confetti{
+    /* border: 2px solid green; */
+    /* background-image: url('img/confetti.gif'); */
+    width: 100vw;
+    height: 80vh;
+}
+
+.failed_box{
+    /* border: 2px solid green; */
+    height: 60vh;
+    width: 40vw;
+    border-radius: 10px;
+    margin:auto;
+    align-content: center;
+    margin-top: 100px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.failed_gif{
+    /* border: 2px solid yellow; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 170px;
+    /* width: 40%; */
+}
+
+.content{
+    /* border: 2px solid purple; */
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    text-decoration: none;
+}
+
+/* .tryagain{
+    text-decoration: none;
+    color: black
+} */
+

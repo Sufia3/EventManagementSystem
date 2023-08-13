@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.active{
+    color: white;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background: url('img/blackbg.jpg');
+    color: white;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    /* background-size: 500px 500px; */
+    /* background-size: cover; */
+   height: 100vh;
+   /* width: 100%; */
+   width: 100vw;
+   /* color: rgb(36, 121, 154); */
+}
+
+.header_container{
+    background-color: black;
+}
+
+.header{
+    display:inline-block;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    height: 100px;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display:inline-block;
+    position: relative;
+    left: 20px;
+}
+
+.mid{
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    margin-left: 240px;
+    position: absolute;
+    left: 320px;
+    width: 900px;
+}
+
+.navbar{
+    display: inline-block;
+    /* margin-right: 29px; */
+    position: relative;
+    right: 100px;
+}
+
+.item{
+    display: inline-block;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.navbar li a{
+    /* border: 2px solid yellow; */
+    /* color: rgb(226, 102, 123); */
+    /* color: rgb(209, 209, 60); */
+    color: yellow;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 28px;
+}
+
+.navbar li a:hover,.navbar li a.active{
+    /* color: rgb(23, 159, 159); */
+    color: white;
+}
+
+.header_book_btn{
+    /* border: 2px solid greenyellow; */
+    /* border: 2px solid rgb(173, 173, 41); */
+    border: 2px solid yellow;
+    font-size: 25px;
+    cursor: pointer;
+    /* color: rgb(118, 176, 31); */
+    color: yellow;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.header_book_btn:hover{
+    color: white;
+}
+
+
+
+
+/* FOOTER CSS */
+
+.footer_container{
+    background-color: black;
+    height: 320px;
+    display: flex;
+}
+    
+
+.footer_col1{
+    display: inline-block;
+    /* border:2px solid red;  */
+    /* width: 300px; */
+    flex: 0 1 50%;
+}
+
+.img_container{
+    margin-left: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.footer_col2{
+    display: inline-block;
+    /* border:2px solid orangered; */
+    flex: 0 1 50%;
+    
+}
+
+
+.footer_col2 ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin: 6px;
+    color: white;
+    /* font-weight: bold; */
+} 
+
+.footer_col2 h2{
+    margin-left: 25px;
+    color: white;
+    /* font-weight: bolder; */
+}
+
+div > i{
+    display: inline-block;
+}
+
+div > li{
+    display: inline-block;
+}
+
+.contact_info_container{
+    margin-top: 70px;
+}
+
+
+
+
+
+/* MIDDLE PART CSS */
+
+.main_container{
+    /* border: 2px solid red; */
+    /* border-top: 3px solid yellow; */
+    width: 100vw;
+    height: 110vh;
+}
+
+.image_container{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 70vh;
+    background-image: url('img/aboutus.jpg');
+    background-repeat: no-repeat;
+}
+
+.image_container{
+    background-image: url('img/aboutus.jpg');
+}
+
+.description_container{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+    border: 4px solid green;
+    height: 50vh;
+    width: 70vw;
+    position: relative;
+    bottom: 200px;
+    left: 220px;
+    color: black;
+    background-color: white;
+}
+
+.eventName{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(231, 118, 137);
+}
+
+.content{
+    padding:0 30px 0 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 40px;
+}

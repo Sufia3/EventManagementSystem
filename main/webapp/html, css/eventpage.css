@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+body{
+    padding:0;
+    margin:0;
+    background: url('img/blackbg.jpg');
+    color: white;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    /* background-size: 500px 500px; */
+    /* background-size: cover; */
+   height: 100%;
+   /* width: 100%; */
+   width: 100vw;
+   /* color: rgb(36, 121, 154); */
+}
+
+.header_container{
+    background-color: black;
+}
+
+.header{
+    display:inline-block;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    height: 100px;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display:inline-block;
+    position: relative;
+    left: 20px;
+}
+
+.mid{
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    margin-left: 240px;
+    position: absolute;
+    left: 320px;
+    width: 900px;
+}
+
+.navbar{
+    display: inline-block;
+    /* margin-right: 29px; */
+    position: relative;
+    right: 100px;
+}
+
+.item{
+    display: inline-block;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.navbar li a{
+    color: yellow;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 28px;
+}
+
+.navbar li a:hover,.navbar li a.active{
+    color: white;
+}
+
+.header_book_btn{
+    border: 2px solid yellow;
+    font-size: 25px;
+    cursor: pointer;
+    color: yellow;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.header_book_btn:hover{
+    color: white;
+}
+.active{
+    color: white;
+}
+
+
+
+
+/* FOOTER CSS */
+
+.footer_container{
+    background-color: black;
+    height: 320px;
+    display: flex;
+}
+    
+
+.footer_col1{
+    display: inline-block;
+    /* border:2px solid red;  */
+    /* width: 300px; */
+    flex: 0 1 50%;
+}
+
+.img_container{
+    margin-left: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.footer_col2{
+    display: inline-block;
+    /* border:2px solid orangered; */
+    flex: 0 1 50%;
+    
+}
+
+
+.footer_col2 ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin: 6px;
+    color: white;
+    /* font-weight: bold; */
+} 
+
+.footer_col2 h2{
+    margin-left: 25px;
+    color: white;
+    /* font-weight: bolder; */
+}
+
+div > i{
+    display: inline-block;
+    color: white;
+}
+
+div > li{
+    display: inline-block;
+}
+
+.contact_info_container{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+/*MIDDLE CSS */
+.middle_container{
+	width: 100vmax;
+}
+
+.card{
+    box-shadow: 0px 4px 15px rgba(0,0,0,1);
+    margin: 0 auto; 
+    float: none; 
+    margin-top: 100px; 
+}
+
+.card-title{
+    text-align: center;
+    color:rgb(173, 173, 41);
+}
+
+.card-text{
+    padding:0 30px 0 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.card:hover .card-img-top{
+    opacity:0.5;
+}
+
+.card:hover .hover-button{
+    opacity: 0.8;
+}
+
+.hover-button {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+    border: 2px solid yellow;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+}
